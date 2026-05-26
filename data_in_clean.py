@@ -26,7 +26,7 @@ def fetch_eia_data(endpoint, params): # Generic API request helper
 
 
 
-def json_to_dataframe(json_data): # Convert JSON -> DataFrame
+def json_to_dataframe(json_data): # Convert JSON to DataFrame
     rows = json_data["response"]["data"]
     df = pd.DataFrame(rows)
     return df
@@ -136,7 +136,7 @@ def fetch_fred_data(series_id, start_date="2015-01-01"): # FRED API
     return response.json()
 
 
-def fred_to_dataframe(json_data): # FRED JSON -> DataFrame
+def fred_to_dataframe(json_data): # FRED JSON to DataFrame again
     rows = json_data["observations"]
     df = pd.DataFrame(rows)
     return df
