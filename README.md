@@ -34,4 +34,4 @@ Gasoline price per gallon (regular, premium, diesel)
 
 ## Summary
 
-A time-series + panel dataset combining U.S. gasoline prices with geographic, and macroeconomic factors to analyze what drives price variation over time and across states.
+A time-series + panel dataset combining U.S. gasoline prices with geographic, and macroeconomic factors to analyze what drives price variation over time and across states. Also, if there was a spike in increase of oil, gas price in the last decade and how did it impact inflation. What kind of relation does oil, gas, national prices and inflation have?
