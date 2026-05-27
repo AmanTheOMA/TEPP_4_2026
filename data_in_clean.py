@@ -66,31 +66,6 @@ gas_df = json_to_dataframe(gas_json)
 save_raw(gas_df,"gas_prices.csv")
 
 
-# National weekly prices
-state_params = {
-
-    "frequency": "weekly",
-
-    "data[0]": "value",
-
-    "facets[product][]": "EPMR",
-
-    "facets[duoarea][]": "NUS",
-
-    "sort[0][column]": "period",
-
-    "sort[0][direction]": "asc",
-
-    "length": 5000
-}
-
-state_json = fetch_eia_data("petroleum/pri/gnd/data/",state_params)
-
-state_df = json_to_dataframe(state_json)
-
-save_raw(state_df,"national_prices.csv")
-
-
 # Crude oil prices
 
 oil_params = {
@@ -159,4 +134,15 @@ save_raw(
     inflation_df,
     "inflation.csv"
 )
+# Natural Gas (Henry Hub Spot Price, monthly)
+# MHHNGSP: Henry Hub Natural Gas Spot Price, $/MMBTU
+# --------------------------------
+
+natural_gas_json = fetch_fred_data("MHHNGSP")
+
+natural_gas_df = fred_to_dataframe(natural_gas_json)
+
+save_raw(natural_gas_df, "natural_gas.csv")
+
+
 print("\nFinished ingesting")
