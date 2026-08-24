@@ -57,7 +57,7 @@ Consumers, financial-services professionals, policymakers, and business analysts
 
 **Salena** contributed to data preparation, weekly date alignment, dataset merging, exploratory analysis, and visualization development. She analyzed the relationship among gasoline prices, crude-oil prices, and inflation; developed normalized trend and correlation visuals; contributed regional PADD analysis; and documented findings in `notebooks/salena.ipynb`.
 
-| **Aman** | Developed the API connections used to retrieve project data and contributed to data collection and preparation. Explored the relationship between crude-oil prices and inflation, analyzed their movement over time, and documented findings in `notebooks/ahmad.ipynb`. |
+**Aman** Developed the API connections used to retrieve project data and contributed to data collection and preparation. Created Repo organization and outline. Explored the relationship between crude-oil prices and inflation, analyzed their movement over time, and documented findings in `notebooks/ahmad.ipynb`. |
 
 ## Limitations and Future Work
 
