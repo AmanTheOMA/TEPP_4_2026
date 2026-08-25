@@ -55,7 +55,7 @@ Consumers, financial-services professionals, policymakers, and business analysts
 
 ## Individual Contribution
 
-**Salena** contributed to data preparation, weekly date alignment, dataset merging, exploratory analysis, and visualization development. She analyzed the relationship among gasoline prices, crude-oil prices, and inflation; developed normalized trend and correlation visuals; contributed regional PADD analysis; and documented findings in `notebooks/salena.ipynb`.
+**Sal** prepared and aligned weekly gasoline and crude-oil price data across the shared 2023–2026 analysis period and merged the datasets by week for consistent comparison. She analyzed the relationship among gasoline prices, crude-oil prices, and inflation; standardized the three measures to make their different scales visually comparable; and developed a normalized trend chart and a crude-oil versus gasoline scatterplot with a trendline. She also calculated the Pearson correlation coefficient to measure the relationship between crude-oil and gasoline prices and documented her analysis and findings in `notebooks/sal.ipynb`.
 
 **Aman** Developed the API connections used to retrieve project data and contributed to data collection and preparation. Created Repo organization and outline. Explored the relationship between crude-oil prices and inflation, analyzed their movement over time, and documented findings in `notebooks/ahmad.ipynb`. |
 
