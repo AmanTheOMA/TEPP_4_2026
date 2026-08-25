@@ -49,7 +49,7 @@ Consumers, financial-services professionals, policymakers, and business analysts
 
 ## Project Evidence
 
-- [View Salena’s Analysis Notebook](notebooks/salena.ipynb)
+- [View Sal’s Analysis Notebook](notebooks/sal.ipynb)
 - [Normalized Gas, Oil, and CPI Trends](data/processed/Normalized%20trends.png)
 - [Crude Oil and Gasoline Relationship](data/processed/Relationship%20btwn%20crude%20oil%20and%20gas.png)
 
